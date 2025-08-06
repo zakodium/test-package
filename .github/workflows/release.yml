@@ -6,20 +6,10 @@ on:
       - main
 
 jobs:
-  generate-token:
-    runs-on: ubuntu-latest
-    outputs:
-      token: ${{ steps.generate-token.outputs.token }}
-    steps:
-      - name: Generate a token
-        id: generate-token
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ vars.RELEASE_APP_ID }}
-          private-key: ${{ secrets.RELEASE_APP_KEY }}
   release:
-    needs: generate-token
     # Documentation: https://github.com/zakodium/workflows#release
-    uses: zakodium/workflows/.github/workflows/release.yml@release-v1
+    uses: zakodium/workflows/.github/workflows/release.yml@release-app
+    with:
+      github-app-id: ${{ vars.RELEASE_APP_ID }}
     secrets:
-      github-token: ${{ needs.generate-token.outputs.token }}
+      github-app-key: ${{ secrets.RELEASE_APP_KEY }}
