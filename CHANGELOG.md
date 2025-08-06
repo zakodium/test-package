@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/zakodium/test-package/compare/v1.0.2...v1.0.3) (2025-08-06)
+
+
+### Bug Fixes
+
+* improve publish on GPR ([b65bbf3](https://github.com/zakodium/test-package/commit/b65bbf389e8819b4a5a50c17c881338b8f4152cc))
+
 ## [1.0.2](https://github.com/zakodium/test-package/compare/v1.0.1...v1.0.2) (2025-08-06)
 
 
