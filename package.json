@@ -1,6 +1,5 @@
 {
   "name": "@zakodium/test-package",
-  "private": true,
   "version": "1.0.0",
   "description": "Test package",
   "type": "module",

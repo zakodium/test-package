@@ -10,6 +10,8 @@ jobs:
     # Documentation: https://github.com/zakodium/workflows#release
     uses: zakodium/workflows/.github/workflows/release.yml@release-app
     with:
+      npm: true
+      public: false
       github-app-id: ${{ vars.RELEASE_APP_ID }}
     secrets:
       github-app-key: ${{ secrets.RELEASE_APP_KEY }}
