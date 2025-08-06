@@ -1,6 +1,6 @@
 # @zakodium/test-package
 
-Test package.
+Test package automation.
 
 ## Usage
 
