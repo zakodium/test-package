@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/zakodium/test-package/compare/v1.0.1...v1.0.2) (2025-08-06)
+
+
+### Bug Fixes
+
+* force new release ([b14b224](https://github.com/zakodium/test-package/commit/b14b224bfdeb335b59f9a89a25fa3b014f32a598))
+
 ## [1.0.1](https://github.com/zakodium/test-package/compare/v1.0.0...v1.0.1) (2025-08-06)
 
 
